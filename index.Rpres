@@ -1,40 +1,62 @@
-My Title
+Does a correlation exist between anxiety and unemployment in Greece?
 ========================================================
-author: aggelikikafka
-date: 2/3/2019
+author: Aggeliki Kafka
+date: 18/3/2019
 autosize: true
 
 Introduction
 ========================================================
+- Since the economical crisis unemployment has become a big deal for Greece. Μore specifically:
 
+- Greece has the highest rates of unemployment in Europe (18.6% in September of 2018) ("Greek unemployment rate fell to 18.6 pct in Sept, Eurostat report", 2019).
 
+- Unemployment is a high risk factor for mental disorders such as anxiety, because of the uncertainty it brings (Linn, Sandifer & Stein, 1985).
+
+- A study found that unemployed greek people had a higher risk for anxiety than employed people  (Kokaliari, 2018).
 
 
 
 Methods
 ========================================================
+- Google Trends
 
+- Compare: anxiety and unemployment
+- Country: Greece
+- Year: 2018
+ 
+Methods
+========================================================
+- Null Hypothesis: Unemployment does not correlate with anxiety
 
-
+- Alternative Hypothesis: Unemployment correlates with anxiety
 
 
 
 Proposed Analysis
 ========================================================
+- Analyze Google Trends data with RStudio
+
+- We will use Pearson r to see if the two variables are correlated
+
+- If they are, we will accept the alternative hypothesis
+
+- If not, we will reject it and accept the null hypothesis
+
+- We expect to see a correlation between the two variables
 
 
 
 
 
+References
+========================================================
+Greek unemployment rate fell to 18.6 pct in Sept, Eurostat report. (2019).Retrieved March 15, 2019, from https://www.amna.gr/en/article/323419/Greek-unemployment-rate-fell-to-186-pct-in-Sept--Eurostat-report
+
+Kokaliari, E. (2018). Quality of life, anxiety, depression, and stress among adults in Greece following the global financial crisis. International Social Work, 61(3), 410–424. https://doi.org/10.1177/0020872816651701
+
+Linn, M. W., Sandifer, R., & Stein, S. (1985). Effects of unemployment on mental and physical health. American Journal of Public Health, 75(5), 502-506.
 
 
-
-
-For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
 
 Slide With Code
 ========================================================
